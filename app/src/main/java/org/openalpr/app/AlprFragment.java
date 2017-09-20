@@ -67,7 +67,7 @@ public class AlprFragment extends Fragment {
         @Override
         protected AlprResult doInBackground(String... parameter) {
             if(parameter.length == 5) {
-                String country = parameter[0];
+                String country = "eu";
                 String region = parameter[1];
                 String filePath = parameter[2];
                 String confFile = parameter[3];
